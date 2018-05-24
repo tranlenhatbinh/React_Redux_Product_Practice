@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Iphone 6 Plus",
+      "name": "Iphone 6 Plus1",
       "price": "5000",
       "status": true
     },
@@ -23,6 +23,12 @@
       "name": "galaxy note 8",
       "price": "2000000",
       "status": true
+    },
+    {
+      "id": 5,
+      "name": "binh",
+      "price": "1324344",
+      "status": ""
     }
   ]
 }

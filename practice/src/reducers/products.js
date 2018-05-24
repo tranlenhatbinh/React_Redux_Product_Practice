@@ -24,7 +24,7 @@ const products = (state= initialState, action) => {
       state.splice(index, 1)
       return [...state]
     case Type.ADD_PRODUCT:
-      state.push(action.product)
+      state.push(product)
       return [...state]
     case Type.UPDATE_PRODUCT:
       index = findIndex(state, product.id)
