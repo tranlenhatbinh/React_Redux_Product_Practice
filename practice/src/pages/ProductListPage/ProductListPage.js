@@ -64,9 +64,9 @@ const mapDispatchToProps = (dispatch, props) => {
     fetchAllProducts : () => {
       dispatch(actFetchProductsRequest())
     },
-    // onDeleteProduct : (id) => {
-    //   dispatch(actDeleteProductRequest(id))
-    // }
+    onDeleteProduct : (id) => {
+      dispatch(actDeleteProductRequest(id))
+    }
   }
 }
 

@@ -5,6 +5,7 @@ import {connect} from 'react-redux'
 
 class ProductActionPage extends Component {
   constructor(props) {
+    console.log('first')
     super(props)
     this.state = {
       id: '',
@@ -15,6 +16,7 @@ class ProductActionPage extends Component {
   }
 
   componentDidMount() {
+    console.log('didmount2')
     var { match } = this.props
     if(match) {
       var id = match.params.id
@@ -23,6 +25,7 @@ class ProductActionPage extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
+    console.log('receive')
     if(nextProps && nextProps.itemEditing) {
       var { itemEditing } = nextProps;
       this.setState({
