@@ -8,7 +8,6 @@ import { actFetchProductsRequest, actDeleteProductRequest} from './../../actions
 class ProductListPage extends Component {
   
   componentDidMount() {
-    console.log('didmount')
     this.props.fetchAllProducts()
   }
 
@@ -17,7 +16,6 @@ class ProductListPage extends Component {
   }
 
   render() {
-    console.log('render')
     var { products }= this.props
     return (
       <div className="container">
